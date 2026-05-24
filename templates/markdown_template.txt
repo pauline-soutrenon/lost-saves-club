@@ -1,0 +1,21 @@
+# Post {post_number}
+
+{image}
+
+## URL
+{url}
+
+## Date
+{date}
+
+## Légende
+{caption}
+
+## Hashtags
+{hashtags}
+
+## Auteur
+{author}
+
+## Custom category
+[[{custom_category}]]
