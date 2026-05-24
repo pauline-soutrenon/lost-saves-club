@@ -5,6 +5,8 @@
 </p>
 
 ## Overview
+Most Instagram saved posts are never seen again.
+
 Lost Saves Club (LSC) is a small pipeline that transforms exported Instagram saved posts into a clean and searchable Obsidian vault.
 
 It helps you:
