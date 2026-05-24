@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Custom
+input_data/*
+!input_data/saved_posts_example.json
