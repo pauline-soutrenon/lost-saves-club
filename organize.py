@@ -186,14 +186,14 @@ def main():
             # screenshot
             image_markdown = ""
 
-            # if not img_path.exists():
-            #    try:
-            #        take_screenshot(url, img_path)
-            #        image_markdown = f"![]({img_filename})"
-            #    except Exception as e:
-            #        print(f"Screenshot failed for {url}: {e}")
-            # else:
-            #    image_markdown = f"![]({img_filename})"
+            if not img_path.exists():
+                try:
+                    take_screenshot(url, img_path)
+                    image_markdown = f"![]({img_filename})"
+                except Exception as e:
+                    print(f"Screenshot failed for {url}: {e}")
+            else:
+                image_markdown = f"![]({img_filename})"
 
             # markdown content
             content = (
