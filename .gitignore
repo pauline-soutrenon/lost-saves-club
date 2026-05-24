@@ -220,3 +220,4 @@ __marimo__/
 # Custom
 input_data/*
 !input_data/saved_posts_example.json
+obsidian_data/*
