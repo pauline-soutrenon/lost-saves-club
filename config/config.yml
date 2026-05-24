@@ -1,0 +1,6 @@
+input_folder: "input_data/"
+output_folder: "obsidian_data/"
+template_path: "templates/markdown_template.txt"
+category_map: {
+  "knit": ["knit", "tricot"]
+}
