@@ -1,2 +1,4 @@
-# lost-saved-club
-Lost Saved Club - turn saved chaos into inspiration
+# Lost Saves Club
+Turn saved chaos into inspiration
+
+![](documentation/logo.png)
