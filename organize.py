@@ -29,7 +29,7 @@ def take_screenshot(url, output_path):
             try:
                 page.get_by_text(button).click(timeout=1000)
                 break
-            except:
+            except Exception:
                 pass
 
         # remove dialogs
@@ -67,7 +67,7 @@ def fix_encoding(text):
         return ""
     try:
         return text.encode("latin1").decode("utf-8")
-    except:
+    except Exception:
         return text
 
 
@@ -100,7 +100,7 @@ def extract_fields(label_values):
         if title.startswith("Propri"):
             try:
                 author = item["dict"][0]["dict"][1]["value"]
-            except:
+            except Exception:
                 author = ""
 
     caption = fix_encoding(caption).replace("~", "")
